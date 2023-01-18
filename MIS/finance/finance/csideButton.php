@@ -1,0 +1,3 @@
+<form class="form-inline my-2 my-lg-0">
+        <a href="logout.php" data-toggle="tooltip" title="Exit" class="btn btn-outline-danger mx-1" ><i class="fa fa-sign-out fa-fw"></i></a>    
+</form>

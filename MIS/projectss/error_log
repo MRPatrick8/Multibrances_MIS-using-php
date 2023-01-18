@@ -1,0 +1,1 @@
+[12-Jan-2023 08:40:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'mrstnbfg_mis'@'localhost' (using password: YES) in /home/tkayinvestment/public_html/MIS/projectss/connection.php on line 2

@@ -1,0 +1,145 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:#FF8080;/*#00A1DE;*/
+	max-width:800px;
+	margin: auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:active {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+
+.mobile-container {
+	max-width: 100%;
+	margin: 10px;
+	border-radius: 10px;
+}
+.topnav {
+	overflow: hidden;
+	background-color: #333333;
+	position: relative;
+}
+.topnav #myLinks {
+	display: none;
+}
+.topnav a {
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	display: block;
+}
+.topnav a.icon {
+	color:white;
+	background: black;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.topnav a:hover {
+	background-color: #3f3f3f;
+	color: white;
+	font-weight:bold;
+}
+.active {
+	background-color: #666666; /*#9BCCDE;*/
+	color: black;
+	font-weight:bold;
+}
+
+@media (min-width: 800px) {
+.topnav #myLinks {
+	display: block;
+}
+.topnav a {
+  float: left;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.icon {
+  float: right;
+}
+
+}
+
+.btn {
+	padding: 10px 10px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+}
+.bText {
+	padding: 10px 0px;
+	font-size: 14px;
+}
+._whiteBox {
+	padding-left:15px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size: 14px;
+	background-color: #FFF;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+.redText {
+	color: #F00;
+}
+
+.formInput {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+.alertBox {
+	padding: 20px;
+	background-color: #f44336;
+	color: white;
+	opacity: 1;
+	transition: opacity 0.6s;
+	margin-bottom: 15px;
+}
+.alertBox.success {
+	background-color: #4CAF50;
+}
+.alertBox.info {
+	background-color: #2196F3;
+}
+.alertBox.warning {
+	background-color: #ff9800;
+}
+.closebtn {
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.closebtn:hover {
+	color: black;
+}

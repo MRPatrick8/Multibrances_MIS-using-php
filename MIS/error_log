@@ -1,0 +1,41 @@
+[19-Feb-2022 06:58:04 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tkayinve_tkayinvestment'@'localhost' (using password: YES) in /home/tkayinvestment/public_html/MIS/dist/includes/dbcon.php on line 2
+[19-Feb-2022 08:58:04 Africa/Kigali] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/tkayinvestment/public_html/MIS/index.php on line 47
+[19-Feb-2022 08:58:04 Africa/Kigali] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/tkayinvestment/public_html/MIS/index.php on line 47
+[19-Feb-2022 06:58:25 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tkayinve_tkayinvestment'@'localhost' (using password: YES) in /home/tkayinvestment/public_html/MIS/dist/includes/dbcon.php on line 2
+[19-Feb-2022 08:58:25 Africa/Kigali] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/tkayinvestment/public_html/MIS/index.php on line 47
+[19-Feb-2022 08:58:25 Africa/Kigali] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/tkayinvestment/public_html/MIS/index.php on line 47
+[19-Feb-2022 06:58:34 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tkayinve_tkayinvestment'@'localhost' (using password: YES) in /home/tkayinvestment/public_html/MIS/dist/includes/dbcon.php on line 2
+[19-Feb-2022 08:58:34 Africa/Kigali] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/tkayinvestment/public_html/MIS/index.php on line 47
+[19-Feb-2022 08:58:34 Africa/Kigali] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/tkayinvestment/public_html/MIS/index.php on line 47
+[19-Feb-2022 06:58:40 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tkayinve_tkayinvestment'@'localhost' (using password: YES) in /home/tkayinvestment/public_html/MIS/dist/includes/dbcon.php on line 2
+[19-Feb-2022 08:58:40 Africa/Kigali] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/tkayinvestment/public_html/MIS/index.php on line 47
+[19-Feb-2022 08:58:40 Africa/Kigali] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/tkayinvestment/public_html/MIS/index.php on line 47
+[19-Feb-2022 06:59:17 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tkayinve_tkayinvestment'@'localhost' (using password: YES) in /home/tkayinvestment/public_html/MIS/dist/includes/dbcon.php on line 2
+[19-Feb-2022 08:59:17 Africa/Kigali] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/tkayinvestment/public_html/MIS/index.php on line 47
+[19-Feb-2022 08:59:17 Africa/Kigali] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/tkayinvestment/public_html/MIS/index.php on line 47
+[19-Feb-2022 07:02:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tkayinve_tkayinvestment'@'localhost' (using password: YES) in /home/tkayinvestment/public_html/MIS/dist/includes/dbcon.php on line 2
+[19-Feb-2022 09:02:14 Africa/Kigali] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/tkayinvestment/public_html/MIS/index.php on line 47
+[19-Feb-2022 09:02:14 Africa/Kigali] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/tkayinvestment/public_html/MIS/index.php on line 47
+[19-Feb-2022 07:04:06 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tkayinve_tkayinvestment'@'localhost' (using password: YES) in /home/tkayinvestment/public_html/MIS/dist/includes/dbcon.php on line 2
+[19-Feb-2022 09:04:06 Africa/Kigali] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/tkayinvestment/public_html/MIS/index.php:47
+Stack trace:
+#0 /home/tkayinvestment/public_html/MIS/index.php(47): mysqli_query(false, 'select * from b...')
+#1 {main}
+  thrown in /home/tkayinvestment/public_html/MIS/index.php on line 47
+[19-Feb-2022 07:05:04 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tkayinve_tkayinvestment'@'localhost' (using password: YES) in /home/tkayinvestment/public_html/MIS/dist/includes/dbcon.php on line 2
+[19-Feb-2022 09:05:04 Africa/Kigali] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/tkayinvestment/public_html/MIS/index.php:47
+Stack trace:
+#0 /home/tkayinvestment/public_html/MIS/index.php(47): mysqli_query(false, 'select * from b...')
+#1 {main}
+  thrown in /home/tkayinvestment/public_html/MIS/index.php on line 47
+[19-Feb-2022 07:08:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tkayinve_tkayinvestment'@'localhost' (using password: YES) in /home/tkayinvestment/public_html/MIS/dist/includes/dbcon.php on line 2
+[19-Feb-2022 09:08:07 Africa/Kigali] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/tkayinvestment/public_html/MIS/index.php:47
+Stack trace:
+#0 /home/tkayinvestment/public_html/MIS/index.php(47): mysqli_query(false, 'select * from b...')
+#1 {main}
+  thrown in /home/tkayinvestment/public_html/MIS/index.php on line 47
+[19-Feb-2022 09:25:54 Africa/Kigali] PHP Warning:  Trying to access array offset on value of type null in /home/tkayinvestment/public_html/MIS/login.php on line 296
+[19-Feb-2022 09:25:54 Africa/Kigali] PHP Warning:  Trying to access array offset on value of type null in /home/tkayinvestment/public_html/MIS/login.php on line 297
+[19-Feb-2022 09:25:54 Africa/Kigali] PHP Warning:  Trying to access array offset on value of type null in /home/tkayinvestment/public_html/MIS/login.php on line 300
+[19-Feb-2022 09:25:54 Africa/Kigali] PHP Warning:  Trying to access array offset on value of type null in /home/tkayinvestment/public_html/MIS/login.php on line 301
+[19-Feb-2022 09:25:54 Africa/Kigali] PHP Warning:  Trying to access array offset on value of type null in /home/tkayinvestment/public_html/MIS/login.php on line 302

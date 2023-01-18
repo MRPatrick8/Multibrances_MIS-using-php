@@ -1,0 +1,194 @@
+/*//////////////////////////////////////////////////////////////////
+[ Table ]*/
+
+.limiter {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.responsiveGrid {
+	border-spacing: 1;
+	border-collapse: collapse;
+	background: white;
+	border-radius: 5px;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+}
+.responsiveGrid * {
+  position: relative;
+}
+.responsiveGrid td, .responsiveGrid th {
+  padding-left: 8px;
+}
+.responsiveGrid thead tr {
+  height: 60px;
+  background: #333333;
+}
+.responsiveGrid tbody tr {
+  height: 50px;
+}
+.responsiveGrid tbody tr:last-child {
+  border: 0;
+}
+.responsiveGrid td, .responsiveGrid th {
+  text-align: left;
+}
+.responsiveGrid td.l, .responsiveGrid th.l {
+  text-align: right;
+}
+.responsiveGrid td.c, .responsiveGrid th.c {
+  text-align: center;
+}
+.responsiveGrid td.r, .responsiveGrid th.r {
+  text-align: center;
+}
+
+.wrap-table100 {
+  width: 1170px;
+}
+
+.table100-head th{
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: unset;
+}
+
+.responsiveGrid tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.responsiveGrid tbody tr {
+  font-size: 15px;
+  color: #808080;
+  line-height: 1.2;
+  font-weight: unset;
+}
+
+.responsiveGrid tbody tr:hover {
+  color: #555555;
+  background-color: #9BCCDE;
+  cursor: pointer;
+}
+
+/*.column1 {
+  width: 260px;
+  padding-left: 40px;
+}
+
+.column2 {
+  width: 160px;
+}
+
+.column3 {
+  width: 245px;
+}
+
+.column4 {
+  width: 110px;
+  text-align: right;
+}
+
+.column5 {
+  width: 170px;
+  text-align: right;
+}
+
+.column6 {
+  width: 222px;
+  text-align: right;
+  padding-right: 62px;
+}*/
+
+
+@media screen and (max-width: 800px) {
+  .responsiveGrid {
+    display: block;
+  }
+  .responsiveGrid > *, .responsiveGrid tr, .responsiveGrid td, .responsiveGrid th {
+    display: block;
+  }
+  .responsiveGrid thead {
+    display: none;
+  }
+  .responsiveGrid tbody tr {
+    height: auto;
+    padding: 20px 0;
+  }
+  .responsiveGrid tbody tr td {
+    padding-left: 30% !important;
+    margin-bottom: 10px;
+  }
+  .responsiveGrid tbody tr td:last-child {
+    margin-bottom: 0;
+  }
+  .responsiveGrid tbody tr td:before {
+    font-size: 16px;
+    color: #999999;
+    line-height: 1.5;
+    font-weight: bold;
+    position: absolute;
+    width: 30%;
+    left: 30px;
+    top: 0;
+  }
+  .responsiveGrid tbody tr td:nth-child(1):before {
+    content: "Date";
+  }
+  .responsiveGrid tbody tr td:nth-child(2):before {
+    content: "Customer";
+  }
+  .responsiveGrid tbody tr td:nth-child(3):before {
+    content: "Details";
+  }
+  .responsiveGrid tbody tr td:nth-child(4):before {
+    content: "Action";
+  }
+
+/*  .column4,
+  .column5,
+  .column6 {
+    text-align: left;
+  }
+
+  .column4,
+  .column5,
+  .column6,
+  .column1,
+  .column2,
+  .column3 {
+    width: 100%;
+	padding: 10px;
+  }*/
+
+  .responsiveGrid tbody tr {
+    font-size: 14px;
+  }
+}
+
+.formInput {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+tr.top td {
+  border-top: thin solid black;
+}
+
+tr.bottom td {
+  border-bottom: thin solid black;
+}
+
+tr.row td:first-child {
+  border-left: thin solid black;
+}
+
+tr.row td:last-child {
+  border-right: thin solid black;
+}
+
